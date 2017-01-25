@@ -1,8 +1,8 @@
-# arduino
-light seeking and obstacle avoiding robot
+# Arduino Light Seeking and Obstacle Avoiding Robot
 
 This is the code for my arduino robot.
-Simply paste it in the Arduino IDE and have fun!
+Each file contains code for each component so that you can understand how it works.
+Simply download or paste it in the Arduino IDE and have fun!
 
-This is the link to my instructables for this project
+The link to my instructables page for this project
 http://www.instructables.com/id/Light-Seeking-and-Obstacle-Avoiding-Robot/
