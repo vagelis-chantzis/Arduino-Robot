@@ -1,3 +1,32 @@
+/*  <--- Arduino Ultrasonic Distance sensor --->
+ * 
+ * This sketch shows how the Ultrasonic Distance sensor 
+ * works using the Serial Monitor.
+ * 
+ * Components  used in this sketch
+ * ----------
+ *  - Arduino Uno
+ *  - Breadboard  
+ *  - HC-SR04 Ultrasonic Distance Sensor 
+ *    
+ *  Libraries
+ *  ---------
+ *  - None
+ *
+ * Connections 
+ * -----------
+ *  The schematic is shown in Chapter Two. 
+ *  This is not a standalone circuit.
+ * 
+ * Other information
+ * -----------------
+ *  Always remember to plug in the Servo Motors batteries first and then the Arduino batteries.
+ *  
+ *  
+ *  Created on February 7 2017 by Evangelos Chantzis
+ * 
+ */
+
 #define trigPin 7  //the trig pin from distance sensor
 #define echoPin 4  //the echo pin from distance sensor
 
