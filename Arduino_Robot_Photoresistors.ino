@@ -1,4 +1,4 @@
-/*  <--- Arduino Robot Distance Guidance --->
+/*  <--- Arduino Photoresistors --->
  * 
  * This sketch is showing the way the photoresistors
  * work using the Serial Monitor.
