@@ -1,3 +1,35 @@
+/*  <--- Arduino Ultrasonic Distance sensor with micro Servo --->
+ * 
+ * This sketch shows how the Ultrasonic Distance sensor 
+ * works using the Serial Monitor and a micro servo to
+ * turn left and right and choose the clear path.
+ * 
+ * Components  used in this sketch
+ * ----------
+ *  - Arduino Uno
+ *  - Breadboard  
+ *  - HC-SR04 Ultrasonic Distance Sensor 
+ *  - 1 x Micro generic Servo 
+ *  - 1 x 100μF capacitor 
+ *    
+ *  Libraries
+ *  ---------
+ *  - Servo.h
+ *
+ * Connections 
+ * -----------
+ *  The schematic is shown in Chapter Two. 
+ *  This is not a standalone circuit.
+ * 
+ * Other information
+ * -----------------
+ *  Always remember to plug in the Servo Motors batteries first and then the Arduino batteries.
+ *  
+ *  
+ *  Created on February 7 2017 by Evangelos Chantzis
+ * 
+ */
+
 #include <Servo.h> //include Servo library
 
 #define trigPin 7  //the trig pin from distance sensor
