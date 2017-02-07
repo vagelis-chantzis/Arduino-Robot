@@ -1,3 +1,39 @@
+/*  <--- Arduino Robot Distance Guidance --->
+ * 
+ * This sketch is about making the robot navigate itself 
+ * without hitting any obstacles.
+ * 
+ * Components  used in this sketch
+ * ----------
+ *  - Arduino Uno
+ *  - Breadboard
+ *  - Magician Robot Chassis
+ *  - 2 x Continuous Rotation Servo (SpringRC SM-S4303R)
+ *  - 1 x Micro generic Servo 
+ *  - HC-SR04 Ultrasonic Distance Sensor
+ *  - 2 x 330μF capacitors 
+ *  - 1 x 100μF capacitor 
+ *  - 2 x plastic wheels 6cm diameter, 0.7cm width 
+ *  - 1 x 9V battery and 4 x 1.5V batteries 
+ *    
+ *  Libraries
+ *  ---------
+ *  - Servo
+ *
+ * Connections 
+ * -----------
+ *  The schematic is shown in Chapter Two. 
+ *  This is not a standalone circuit.
+ * 
+ * Other information
+ * -----------------
+ *  Always remember to plug in the Servo Motors batteries first and then the Arduino batteries.
+ *  
+ *  
+ *  Created on February 7 2017 by Evangelos Chantzis
+ * 
+ */
+
 #include <Servo.h> //include Servo library
 
 #define trigPin 7  //the trig pin from distance sensor
