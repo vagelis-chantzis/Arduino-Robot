@@ -1,3 +1,34 @@
+/*  <--- Arduino Robot Distance Guidance --->
+ * 
+ * This sketch is showing the way the photoresistors
+ * work using the Serial Monitor.
+ * 
+ * Components  used in this sketch
+ * ----------
+ *  - Arduino Uno
+ *  - Breadboard
+ *  - 2 x Light Dependent Resistors (Photoresistors) 
+ *  - 2 x 10kΩ resistors  
+ *    
+ *  Libraries
+ *  ---------
+ *  - None
+ *
+ * Connections 
+ * -----------
+ *  The schematic is shown in Chapter Two. 
+ *  This is not a standalone circuit.
+ * 
+ * Other information
+ * -----------------
+ *  Always remember to plug in the Servo Motors batteries first and then the Arduino batteries.
+ *  More about the photoresistors: https://en.wikipedia.org/wiki/Photoresistor
+ *  
+ *  
+ *  Created on February 7 2017 by Evangelos Chantzis
+ * 
+ */
+
 const int RightLightSensor = 2;  //declare the analog pins for the photoresistors
 const int LeftLightSensor = 0;
 
